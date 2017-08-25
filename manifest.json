@@ -1,0 +1,15 @@
+{
+  "short_name": "pwa_boilerplate",
+  "name": "pwa_boilerplate",
+  "icons": [
+    {
+      "src": "img/icons/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ],
+  "start_url": "/index.html",
+  "display": "fullscreen",
+  "orientation": "portrait",
+  "gcm_sender_id":
+}

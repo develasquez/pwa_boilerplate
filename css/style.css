@@ -1,0 +1,194 @@
+body{
+	color: #333;
+}
+.page{
+	padding-bottom: 3em;
+}
+footer{
+	min-height: 5em;
+}
+.hidden{
+      display: none;
+    }
+.isapre-logo{
+  width: 100%;
+    margin: .1em;
+}
+
+.UF{
+	height: 2em;
+    line-height: 1em;
+}
+.flex {
+	width: 100%;
+	display: flex !important;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.page{
+	background-color: #fafafa;
+}
+.info-contacto h3{
+	font-size: 90%;
+    margin: 0;
+}
+.info-contacto h4{
+	margin: 0;
+    font-size: 90%;
+    margin-top: -24px;
+}
+
+
+.flex .col-1 {
+	flex-grow: 1;
+	width: 8.3333%;
+}
+.flex .col-2 {
+	flex-grow: 2;
+	width: 16.6666%;
+}
+.flex .col-3 {
+	flex-grow: 3;
+	width: 25%;	
+}
+.flex .col-4 {
+	flex-grow: 4;
+	width: 33.3333%;
+}
+.flex .col-5 {
+	flex-grow: 5;
+	width: 41.6666%;
+}
+.flex .col-6 {
+	flex-grow: 6;
+	width: 50%;
+}
+.flex .col-7 {
+	flex-grow: 7;
+	width: 58.3333%;
+}
+.flex .col-8 {
+	flex-grow: 8;
+	width: 66.6666%;
+}
+.flex .col-9 {
+	flex-grow: 9;
+	width: 75%;
+}
+.flex .col-10 {
+	flex-grow: 10;
+	width: 83.3333%;
+}
+.flex .col-11 {
+	flex-grow: 11;
+	width: 91.6666%;
+}
+.flex .col-12 {
+	flex-grow: 12;
+	width: 100%;
+}
+
+
+.list li>div:nth-child(even)>div {
+	width: 100% !important;
+}
+@media screen and (min-width: 768px)
+.list li>div:nth-child(even) {
+    width: 89% !important;
+}
+@media screen and (max-width: 640px) and (min-width: 320px)
+.list li>div:nth-child(even) {
+    width: 68% !important;
+}
+
+.list{
+	color: #303030;
+	background-color: #FAFAFA;
+}
+
+.list li.collapsible {
+	background-color: #fff; 
+	overflow: hidden;
+    transition: box-shadow .264s, margin .264s;
+    -webkit-transition: -webkit-box-shadow .264s, margin .264s;
+    border: solid 1px #d9d9d9;
+    border-top: solid 0px #fff;
+}
+.list li.collapsible .expandable-area{
+	margin: 0;
+	visibility: hidden;
+	-webkit-transform: scaleY(0);
+    -webkit-transition: -webkit-transform .264s;
+    transform: scaleY(0);
+    transition: transform .264s;
+    padding-top: 1em;
+    padding-bottom: 1em;
+
+}
+.expandable-area h3, .expandable-area h4, .expandable-area h1, .expandable-area h2,
+.expandable-area p, .expandable-area b, .expandable-area span, .expandable-area section, .expandable-area article{
+	margin: 0;
+	font-size: 90%;
+	height: 1.5em;
+	line-height: 1.5em;
+}
+
+.list li.collapsible.expanded{
+	margin: 1em 0 1em 0;
+	-webkitbox-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.37);
+    position: relative;
+    border-top: solid 1px #d9d9d9;
+    height: 18em;
+}
+
+.list li.collapsible.expanded .expandable-area{
+	width: 100%;
+	border-top: solid 1px #eaeaea; 
+	visibility: visible;
+	-webkit-transform-origin: top;
+    transform-origin: top;
+    transform: scaleY(1);
+    -webkit-transform: scaleY(1);
+    z-index: 3000;
+}
+
+.button-center {
+    display: block;
+    margin: .7em auto;
+}
+
+.montoSaludUF.porcentaje_uf {
+    padding: 0 1em;
+    font-size: 200%;
+}
+.montoSaludPesos.porcentaje_peso {
+    padding: 0 1em;
+}
+.label_porcentaje {
+    padding: 1em;
+}
+.btnRmCarga{
+	margin-left: 1em;
+}
+
+.card.ges, .card.factorRiesgo, .card.TotalFinal{
+	width: 100%;
+    color: #fff;
+    box-sizing: border-box;
+    padding-bottom: 2em;
+}
+.valorGes, .factorRiesgoTotal, .total{
+	text-align: center;
+	font-size: 3em;
+}
+.comparado{
+	text-align: center;
+}
+.valorCarga{
+	float: right;
+    font-size: 1.5em;
+}
+.list li>div:nth-child(even)>div>h3{
+	margin: 1.5em 0 0 0;
+}
